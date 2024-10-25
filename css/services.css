@@ -1,0 +1,60 @@
+h1#heading1{
+    text-align: center;
+}
+p.paragraph{
+    font-family: "Fira Code Light", sans-serif;
+    font-size: 18px;
+}
+.button{
+    display: flex;
+}
+
+#mydivision{
+    background-color: dodgerblue;
+    margin: 40px;
+    padding: 30px;
+    color: white;
+}
+#test{
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    color: white;
+    background-color: lightslategray;
+}
+#test img{
+    margin-right: 40px;
+    border-radius: 400px;
+
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+#main{
+    display: flex;
+}
+#advertisement{
+    color: white;
+    padding: 30px;
+    margin-left: 20px;
+    background-color: brown;
+    box-shadow: 8px 6px 12px 4px gray;
+}
+#accounting{
+    color: white;
+    padding: 30px;
+    margin-left: 20px;
+    background-color: #0c7eef;
+    box-shadow: 8px 6px 12px 4px gray;
+}
+#payment{
+    color: white;
+    padding: 30px;
+    margin-left: 20px;
+    background-color: #6eba30;
+    box-shadow: 8px 6px 12px 4px gray;
+}
+#advertisement:hover, #accounting:hover ,#payment:hover{
+    background-color: gray;
+}
